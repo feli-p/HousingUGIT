@@ -75,4 +75,5 @@ create table Imagenes(
 	nombre varchar(200)
 )
 
-select cUsuario from Usuario where correo  = 'cor2' and pwd = 'con2'
+alter table Estancia add cImg int references Imagenes
+
